@@ -1,0 +1,95 @@
+/* Player */
+.main-video-player {
+  max-width: 900px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  scale: 0;
+  z-index: 1000;
+  transition: 500ms all;
+}
+.player {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #335dff;
+  box-shadow: 0px 10px 35px -3px rgba(51, 93, 255, 0.35),
+    0px 4px 6px rgba(51, 93, 255, 0.25);
+  border-radius: 20px;
+  margin: 0 10px;
+}
+.video {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 20px 20px 0 0;
+}
+/* Controls */
+.controls {
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+.controls > * {
+  cursor: pointer;
+}
+.btn-play {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.btn-play--icon {
+  font-size: 1.3rem;
+}
+.btn-pause {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.btn-stop--icon {
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+.btn-restart {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.btn-restart--icon {
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+.btn-volume {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.btn-volume--icon {
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+.btn-volume:hover .volume {
+  height: 100px !important;
+  display: block !important;
+}
+.volume {
+  border: none;
+  position: absolute;
+  transform: rotate(-90deg);
+  background-color: red;
+  left: -5px;
+  bottom: 60px;
+  height: 0px;
+  display: none;
+}
+.progress {
+  flex-grow: 1;
+  border: none;
+}
+.times-tamp {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
