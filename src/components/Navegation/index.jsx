@@ -9,7 +9,7 @@ const index = () => {
   return (
     <nav className={styles["nav"]}>
       <div className={styles["nav-logo"]}>
-        <p className="color--active">Clinica</p>logo
+        <a href="/" className="color--active">Clinica</a> logo
       </div>
 
       <ul className={styles["nav-ul"]} id="nav-ul">
@@ -21,11 +21,6 @@ const index = () => {
         <li className={styles["nav-ul-li"]}>
           <a className={styles["nav-ul-li--a"]} href="">
             Services
-          </a>
-        </li>
-        <li className={styles["nav-ul-li"]}>
-          <a className={styles["nav-ul-li--a"]} href="">
-            Doctors
           </a>
         </li>
         <li className={styles["nav-ul-li"]}>
