@@ -1,0 +1,32 @@
+{
+  "window.zoomLevel": 0.7,
+  "editor.wordWrap": "on",
+  "files.autoSave": "onFocusChange",
+  "window.restoreWindows": "none",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.renderWhitespace": "all",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+	"trailingComma": "all",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+	"editor.formatOnSaveMode": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true, 
+	"editor.formatOnType": true,
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "svipas.prettier-plus"
+	}
+}

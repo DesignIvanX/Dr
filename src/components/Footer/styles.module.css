@@ -3,8 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 3rem;
+  flex-wrap: wrap; 
+	gap: 3rem;
 }
 .footer-text {
   width: 300px;
@@ -13,7 +13,7 @@
 }
 .footer-text--title {
   color: var(--color-secondary);
-}
+	}
 .footer-text-paragraph {
   margin: 10px 0;
   color: var(--color-light);
@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 .footer-social--icon {
   color: var(--color-primary);

@@ -39,8 +39,8 @@ const index = () => {
         <p className={styles["header-text-three--p"]}>
           Become member of our hospital community?
         </p>
-        <a className="color--active" href="">
-          Sing Up
+        <a className="color--active" href="/reserve">
+          Reserve
         </a>
       </div>
     </div>
