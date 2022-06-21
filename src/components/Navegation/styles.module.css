@@ -48,7 +48,6 @@
     background-color: var(--color-white);
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-direction: column;
     transform: translateX(100%);
     transition: 1s all ease-in-out;
