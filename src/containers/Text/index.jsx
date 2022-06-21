@@ -19,7 +19,7 @@ const index = () => {
         </p>
       </div>
       <div className={styles["header-text-two"]}>
-        <a className={styles["header-text-two--btn"]} href="">
+        <a className={styles["header-text-two--btn"]} href="/reserve">
           Book your turn <BsArrowRight fontSize="1.5rem" />
         </a>
         <button
@@ -39,8 +39,8 @@ const index = () => {
         <p className={styles["header-text-three--p"]}>
           Become member of our hospital community?
         </p>
-        <a className="color--active" href="/reserve">
-          Reserve
+        <a className="color--active" href="">
+          Sing Up
         </a>
       </div>
     </div>
