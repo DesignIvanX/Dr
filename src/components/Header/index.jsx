@@ -9,7 +9,7 @@ const index = () => {
   const handleScroll = (e) => {
     const bar = document.querySelector("#bar");
     let currentBar =
-      (100 * Math.round(window.pageYOffset)) / Math.round(screen.height) + 10;
+      (100 * Math.round(window.pageYOffset)) / Math.round(screen.height);
     bar.style.width = `${currentBar}%`;
   };
 
